@@ -1,4 +1,4 @@
-class Cliente {
+export class Cliente {
   private _codigo: number;
   private _nombre: string;
   private _direccion: Direccion;

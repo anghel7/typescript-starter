@@ -1,4 +1,4 @@
-abstract class Cuenta {
+export abstract class Cuenta {
   protected _numero: number;
   protected _saldo: number;
   protected _moneda: string;

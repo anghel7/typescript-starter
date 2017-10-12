@@ -1,4 +1,5 @@
-class CajaDeAhorro extends Cuenta {
+import { Cuenta } from "./cuenta";
+export class CajaDeAhorro extends Cuenta {
   private _interes: number;
 
   constructor(numero: number, saldo: number, moneda: string, interes: number) {

@@ -1,3 +1,4 @@
-class CuentaCorriente extends Cuenta{
-  
+import { Cuenta } from "./cuenta";
+export class CuentaCorriente extends Cuenta{
+
 }

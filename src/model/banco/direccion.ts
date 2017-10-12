@@ -1,4 +1,4 @@
-class Direccion {
+export class Direccion {
   private _pais: string;
   private _ciudad: string;
   private _calle: string;
