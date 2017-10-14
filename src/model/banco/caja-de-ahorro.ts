@@ -15,7 +15,7 @@ export class CajaDeAhorro extends Cuenta {
     this._interes = interes;
   }
 
-  aplicarInteres() {
+  aplicarInteres(): number{
     return (this._saldo*this._saldo);
   }
 }

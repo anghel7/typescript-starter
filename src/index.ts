@@ -23,6 +23,7 @@ gato1.mover(23);
 (gato1 as Gato).mover(2);
 
 /*Test Homework*/
+
 console.log('--------------------->>Testing homework(class2)<<---------------------');
 import { CajaDeAhorro } from "./model/banco/caja-de-ahorro";
 import { Cliente } from "./model/banco/cliente";
@@ -31,7 +32,7 @@ import { Cuenta } from "./model/banco/cuenta";
 import { Direccion } from "./model/banco/direccion";
 
 const cajaDeAhorro: CajaDeAhorro = new CajaDeAhorro(23, 1, "pesos", 0.7);
-cajaDeAhorro.aplicarInteres(); s
+cajaDeAhorro.aplicarInteres();
 
 
 

@@ -17,7 +17,7 @@ export class Direccion {
     this._pais = pais;
   }
 
-    /*_ciudad*/
+    /*_ciudad */
   get ciudad(): string {
     return this._ciudad;
   }

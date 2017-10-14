@@ -1,3 +1,5 @@
+import { Cuenta } from "./cuenta";
+import { Direccion } from "./direccion";
 export class Cliente {
   private _codigo: number;
   private _nombre: string;
